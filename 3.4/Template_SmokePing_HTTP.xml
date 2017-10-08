@@ -9,8 +9,8 @@
     </groups>
     <templates>
         <template>
-            <template>_NW_SmokePing_HTTP</template>
-            <name>_NW_SmokePing_HTTP</name>
+            <template>Template SmokePing HTTP</template>
+            <name>Template SmokePing HTTP</name>
             <description/>
             <groups>
                 <group>
@@ -74,7 +74,7 @@
     </templates>
     <triggers>
         <trigger>
-            <expression>{_NW_SmokePing_HTTP:net.tcp.service.perf[http].max(#3)}=0</expression>
+            <expression>{Template SmokePing HTTP:net.tcp.service.perf[http].max(#3)}=0</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
             <name>HTTP service is down on {HOST.NAME}</name>
@@ -117,7 +117,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>_NW_SmokePing_HTTP</host>
+                        <host>Template SmokePing HTTP</host>
                         <key>net.tcp.service.perf[http]</key>
                     </item>
                 </graph_item>

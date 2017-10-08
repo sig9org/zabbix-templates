@@ -9,8 +9,8 @@
     </groups>
     <templates>
         <template>
-            <template>_NW_SmokePing_ICMP</template>
-            <name>_NW_SmokePing_ICMP</name>
+            <template>Template SmokePing ICMP</template>
+            <name>Template SmokePing ICMP</name>
             <description/>
             <groups>
                 <group>
@@ -222,7 +222,7 @@
                     <calc_fnc>4</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>_NW_SmokePing_ICMP</host>
+                        <host>Template SmokePing ICMP</host>
                         <key>icmppingsec[,5,1000,1424,500]</key>
                     </item>
                 </graph_item>
@@ -234,7 +234,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>_NW_SmokePing_ICMP</host>
+                        <host>Template SmokePing ICMP</host>
                         <key>icmppingsec[,5,1000,1424,500]</key>
                     </item>
                 </graph_item>
@@ -246,7 +246,7 @@
                     <calc_fnc>1</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>_NW_SmokePing_ICMP</host>
+                        <host>Template SmokePing ICMP</host>
                         <key>icmppingsec[,5,1000,1424,500]</key>
                     </item>
                 </graph_item>
@@ -258,7 +258,7 @@
                     <calc_fnc>4</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>_NW_SmokePing_ICMP</host>
+                        <host>Template SmokePing ICMP</host>
                         <key>icmppingsec[,5,1000,68,500]</key>
                     </item>
                 </graph_item>
@@ -270,7 +270,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>_NW_SmokePing_ICMP</host>
+                        <host>Template SmokePing ICMP</host>
                         <key>icmppingsec[,5,1000,68,500]</key>
                     </item>
                 </graph_item>
@@ -282,7 +282,7 @@
                     <calc_fnc>1</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>_NW_SmokePing_ICMP</host>
+                        <host>Template SmokePing ICMP</host>
                         <key>icmppingsec[,5,1000,68,500]</key>
                     </item>
                 </graph_item>
@@ -294,7 +294,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>_NW_SmokePing_ICMP</host>
+                        <host>Template SmokePing ICMP</host>
                         <key>icmppingloss[,5,1000,1424,500]</key>
                     </item>
                 </graph_item>
@@ -306,7 +306,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>_NW_SmokePing_ICMP</host>
+                        <host>Template SmokePing ICMP</host>
                         <key>icmppingloss[,5,1000,68,500]</key>
                     </item>
                 </graph_item>
